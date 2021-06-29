@@ -1,14 +1,9 @@
 <template>
-    <div class="slds-text-heading_small">{message}</div>
-    <button onclick={handleClick}>Change Text</button>
-    Sum of two my number:{sum}
-    <br />
-    <hr />
-    <template for:each={employee} for:item="con" for:index="index">
-        <li key={con}>{con}</li>
-    </template>
-
-    <my-greeting my-greeting={greeting} onpass={myData}></my-greeting>
-
-    <img src="./resources/lwc.png" height="100px" width="100px" />
+    <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+    </div>
+    <div class="alert alert-success" role="alert">
+        A simple danger alert—check it out!
+    </div>
+    <button type="button" class="btn btn-primary">Primary</button>
 </template>
